@@ -25,5 +25,16 @@ Youdyog is coming up with PublicFone.
 	A non-verified user information can contain the Unique user-id, location, qualification, orientation, affiliations, passion however it shall not contain the name address etc of the users
 	A verified user can keep their information with us but we will not expose their names to other users
 	What is considered as an unique identifier is the phone number of the user which can be hashed and used to generate a unique id, to be more accurate we can use extra information like imei/macaddr to generate the specific hash
-- 
+
+
+----------------------------------------------------------------------------------------------
+MYSQL ERD SCHEMA REVIEW --- ITERATION 1 --- Sunday, 21/7/2013
+----------------------------------------------------------------------------------------------
+
+Usage: 
+- Install MySQL Community server with workbench. http://dev.mysql.com/downloads/installer/
+- Import the ERD in MySQL Workbench from ~/PublicFone/Schema/PublicFone_ERD.mwb
+- Go through the comments available again the key on each tables to understand what information table stores
+
+
 
